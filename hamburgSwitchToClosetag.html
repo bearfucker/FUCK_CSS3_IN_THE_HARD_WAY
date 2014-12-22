@@ -1,0 +1,81 @@
+
+
+<!--author: Bearfucker-->
+
+<!--Email: notcocksucker@gmail.com-->
+
+<!--Version: 1.0.0        -->
+
+<!--UpdateTime: 22/12/2014-->
+
+<!--READ ME FIRST!-->
+<!--1) Read this first U cocksucker or fuck off!-->
+<!--2) Rule number one Don't point out any syntax error of me!-->
+<!--3) I am right in everything U cocksucker just need listen!-->
+<!--4) love dogs!-->
+<!--5) Make sure U using chorme while U open this page, I don't want my things look like a shit!-->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+
+        .hamburg{
+            position: relative;
+            width: 100px;
+            height: 100px;
+            border: none;
+            cursor: pointer;
+            -webkit-transition: all 1s;
+            -ms-transition: all 1s;
+            -moz-transition: all 1s;
+            -o-transition: all 1s;
+            transition: all 1s;
+
+        }
+
+        .hamburg:before,
+        .hamburg:after{
+            border-radius: 2px;
+            content: '';
+            position: absolute;
+            background-color: #000000;
+            -webkit-transition: all 0.4s;
+            width: 100%;
+            height: 10%;
+        }
+
+        .hamburg:before{
+            top: 30%;
+        }
+
+        .hamburg:after{
+            top: 60%;
+        }
+
+        .close:before,
+        .close:after{
+            top: 45%;
+            width: 100%;
+            height: 10%;
+        }
+
+        .close:before{
+            -webkit-transform: rotate(45deg);
+        }
+
+        .close:after{
+            -webkit-transform: rotate(135deg);
+        }
+    </style>
+</head>
+<body>
+<div class="hamburg"></div>
+</body>
+<script>
+    document.querySelector('.hamburg').onclick = function(){
+        this.classList.toggle('close');
+    }
+</script>
+</html>
